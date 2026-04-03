@@ -2,7 +2,6 @@
 
 [![npm version](https://img.shields.io/npm/v/is-tcp-port-used.svg)](https://www.npmjs.com/package/is-tcp-port-used)
 [![npm downloads](https://img.shields.io/npm/dm/is-tcp-port-used.svg)](https://www.npmjs.com/package/is-tcp-port-used)
-[![bundle size](https://img.shields.io/bundlephobia/minzip/is-tcp-port-used)](https://bundlephobia.com/package/is-tcp-port-used)
 [![license](https://img.shields.io/npm/l/is-tcp-port-used.svg)](https://github.com/Hackinet/is-tcp-port-used/blob/master/LICENSE)
 
 > Check if a TCP port is in use, wait until free or used
