@@ -1,6 +1,6 @@
 {
   "name": "is-tcp-port-used",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if a TCP port is in use, wait until free or used. Zero dependencies, async/await, TypeScript.",
   "type": "module",
   "exports": {
