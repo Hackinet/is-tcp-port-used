@@ -9,9 +9,19 @@
 
 A modern, zero-dependency replacement for [`tcp-port-used`](https://www.npmjs.com/package/tcp-port-used). Built with TypeScript, async/await, and a clean options-based API.
 
-## Why?
+## Why not `tcp-port-used`?
 
-`tcp-port-used` hasn't been updated since 2020, uses outdated patterns (`var`, callbacks, manual deferreds), drags in unnecessary dependencies, and has a broken bugs URL. This package does the same thing in ~70 lines with zero dependencies and full TypeScript support.
+| | `tcp-port-used` | `is-tcp-port-used` |
+|---|---|---|
+| Last updated | 2020 | 2026 |
+| Dependencies | 2 (`debug`, `is2`) | **0** |
+| TypeScript | No (needs `@types/`) | Built-in |
+| API style | Positional args | Options object |
+| ESM support | No | Dual ESM/CJS |
+| Source size | 369 lines | ~70 lines |
+| Patterns | `var`, callbacks, manual deferreds | async/await |
+
+`tcp-port-used` hasn't been updated since 2020, drags in unnecessary dependencies, and has a broken bugs URL in its own package.json. This package does the same thing with zero dependencies and full TypeScript support.
 
 ## Install
 
